@@ -11,6 +11,7 @@ p {
   border-right: 10px solid transparent;
   border-bottom: 10px solid black;
   transform: rotate(0deg);
+  cursor: pointer;
 }
 .arrow-down {
   width: 0;
@@ -20,6 +21,7 @@ p {
   border-bottom: 10px solid black;
   transform: rotate(180deg);
   /* margin-top: 20px; */
+  cursor: pointer;
 }
 
 .container {
@@ -32,4 +34,8 @@ p {
 .main {
   text-align: center;
   padding: 20px;
+}
+
+button {
+  cursor: pointer;
 }
