@@ -24,7 +24,7 @@ export default function App() {
       </button>
       <div class="main">
         <div onClick={Incr} class="arrow-up"></div>
-        <div class="count">{count}</div>
+        <div class="count">{count > 9 || count<0 ? count : '0' + count}</div>
         <div onClick={Decr} class="arrow-down"></div>
       </div>
       <button onClick={IncrByTen} class="right-btn">
